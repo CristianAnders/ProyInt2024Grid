@@ -19,6 +19,7 @@ body{
     padding: 5px;
     border: 2px solid white;
     border-radius: 10px;
+    margin: 5px;
 }
 .proyecto{
     background-color: rgb(214, 214, 248);
@@ -47,8 +48,16 @@ header {
 .imgPortafolio{
    width: 95%;
    padding: 10px;
-  
 }
+
+.DivServicios{
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 5PX;
+   margin: 5px;
+ }
 
 #proyectos {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
